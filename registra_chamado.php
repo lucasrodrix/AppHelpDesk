@@ -7,4 +7,5 @@
     $arquivo = fopen('arquivo.hd','a');
     fwrite($arquivo,$texto);
     fclose($arquivo);
+    header('Location: abrir_chamado.php');
 ?>
