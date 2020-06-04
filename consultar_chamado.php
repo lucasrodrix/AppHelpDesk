@@ -2,7 +2,7 @@
 <?php
   $chamados = array();
 
-  $arquivo = fopen('arquivo.hd','r');
+  $arquivo = fopen('../../AppHelpDesk/arquivo.hd','r');
   
   while (!feof($arquivo)) {
     $registro = fgets($arquivo);
